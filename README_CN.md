@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://github.com/TongchengOpenSource/smart-doc-maven-plugin" target="_blank">Smart-Doc Maven Plugin</a></h1>
+<h1 align="center"><a href="https://github.com/smart-doc-group/smart-doc-maven-plugin" target="_blank">Smart-Doc Maven Plugin</a></h1>
 
 ![maven](https://img.shields.io/maven-central/v/com.ly.smart-doc/smart-doc-maven-plugin)
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
