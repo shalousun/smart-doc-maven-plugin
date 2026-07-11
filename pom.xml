@@ -34,10 +34,11 @@
     </developers>
 
     <properties>
-        <smart-doc.version>3.1.2</smart-doc.version>
+        <smart-doc.version>4.0.0</smart-doc.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.pluging.version>3.8.6</maven.pluging.version>
         <maven.pluging.annotations.version>3.8.2</maven.pluging.annotations.version>
+        <central-publishing-maven-plugin.version>0.9.0</central-publishing-maven-plugin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -133,10 +134,10 @@
                     <plugin>
                         <groupId>org.sonatype.central</groupId>
                         <artifactId>central-publishing-maven-plugin</artifactId>
-                        <version>0.7.0</version>
+                        <version>${central-publishing-maven-plugin.version}</version>
                         <extensions>true</extensions>
                         <configuration>
-                            <publishingServerId>central-ly</publishingServerId>
+                            <publishingServerId>central-shalousun</publishingServerId>
                             <autoPublish>false</autoPublish>
                         </configuration>
                     </plugin>
